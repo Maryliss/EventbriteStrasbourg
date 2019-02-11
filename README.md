@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Auteurs
+Nora Bourouis et Marylis Stenger
 
-Things you may want to cover:
+#Pré-requis 
+$ télécharger le zip 
+$ dézipper 
+$ chemin du dossier dans le terminal 
+$ bundle install (pour avoir les gems: gem 'table_print', gem 'faker', gem 'rspec-rails', gem 'table_print') 
+$ rails db:create 
+$ rails db:migrate 
+$ rails db:seed 
+$ rails db:migrate:status 
+$ rails c
 
-* Ruby version
+Retrouvez vos clés d'API et rangez votre fichier .env à la racine de notre dossier.
+Créer manuellement un user avec un mail qui se termine en @yopmail.com
+vérifier sur http://www.yopmail.com/
 
-* System dependencies
 
-* Configuration
+#Consignes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Lundi : avant de faire les champions des views, tu vas créer la base de données. Ensuite tu vas brancher un mailer pour avoir un système d'emails fonctionnel en production
